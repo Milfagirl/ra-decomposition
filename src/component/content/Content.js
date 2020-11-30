@@ -8,7 +8,6 @@ export default function Content(props) {
         <div className='content'>
            <ContentList data = {data.contentList} />
            <ContentInput data = {data.contentInput} />
-
         </div>
     )
 }
