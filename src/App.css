@@ -1,38 +1,90 @@
 .App {
   text-align: center;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  padding: 10px 250px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-group-item {
+  text-align: left;
+  height: 18px;
+  font-size: 9px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header-News {
+  width: 60%;
+}
+.list-group-horizontal button {
+  color: blue;
+}
+.header-news {
   display: flex;
-  flex-direction: column;
+}
+.header-news a {
+  font-size: 10px;
+}
+.header-side img {
+  width: 60px;
+  height: 60px;
+}
+.header-side {
+  width: 30%;
+}
+.content-list {
+  padding-inline-start: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.content-list img {
+  width: 40px;
+  height: 40px;
+}
+.content-input {
+  display: flex;
+  height: 100px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.content-input img {
+  width: 100px;
+  height: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-input form {
+  margin-left: 10px;
+  height: 50%;
+  display: flex;
+  width: 100%;
+}
+.content-input input {
+  height: 100%;
+  border: 2px solid rgb(241, 241, 66);
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 80%;
+}
+.content-input button {
+  margin-left: 10px;
+  height: 100%;
+  border: 2px solid rgb(241, 241, 66);
+  border-radius: 5px;
+  background-color: rgb(241, 241, 66);
+  box-sizing: border-box;
+  width: 20%;
+}
+.widget {
+  width: 80%;
+  height: 80px;
+  text-align: left;
+  display: flex;
+}
+.widget img {
+  display: block;
+  width: 250px;
+  height: 100px;
+}
+.widget a {
+  margin-left: 10px;
+  display: block;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
 }
